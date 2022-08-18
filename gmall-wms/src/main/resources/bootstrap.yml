@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: wms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 9d851018-bf76-4ab9-aa65-f96621ecec8e
+        group: dev
+        file-extension: yml  # 默认找服务名.properties文件
